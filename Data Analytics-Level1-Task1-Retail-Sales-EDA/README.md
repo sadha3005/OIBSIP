@@ -1,97 +1,138 @@
+# Retail Sales Exploratory Data Analysis
 
-Retail Sales EDA
-📌 Project Overview
-This project performs Exploratory Data Analysis (EDA) on a retail sales dataset to identify sales trends, customer segment performance, top-selling products, category-wise revenue, and sales distribution.
+## Project Overview
 
-The project was completed as part of the OASIS INFOBYTE Data Analytics Internship – Level 1 Task 1.
+This project focuses on performing **Exploratory Data Analysis (EDA)** on retail sales data to understand sales performance, customer segments, product categories, and sales distribution.
 
-🎯 Objectives
-Inspect and understand the retail sales dataset
-Analyze sales trends over time
-Identify the highest-performing customer segments
-Find the top 10 products based on sales
-Analyze revenue by product category
-Study relationships between numerical variables
-Understand the distribution of sales
-Provide actionable business recommendations
-🛠️ Technologies Used
-Python
-Pandas
-NumPy
-Matplotlib
-Seaborn
-Jupyter Notebook
-📂 Dataset
-The dataset contains 9,800 retail sales records and 18 columns.
+The analysis uses Python and data visualization techniques to identify important patterns, trends, and business insights from the retail sales dataset.
 
-Important columns include:
+---
 
-Order ID
-Order Date
-Ship Date
-Ship Mode
-Customer ID
-Customer Name
-Segment
-Country
-City
-State
-Region
-Product ID
-Category
-Sub-Category
-Product Name
-Sales
-🔍 Analysis Performed
-1. Data Inspection
-Dataset shape and structure
-Data types
-Missing-value analysis
-Duplicate-value check
-Descriptive statistics
-2. Sales Trend Analysis
-Monthly sales trends
-Quarterly sales trends
-3. Customer Segment Analysis
-Sales were analyzed across:
+## Objective
 
-Consumer
-Corporate
-Home Office
-4. Top 10 Products
-Identified the top 10 products based on total sales.
+The main objectives of this project are:
 
-5. Revenue by Category
-Compared revenue across:
+- Analyze overall retail sales performance.
+- Identify monthly and quarterly sales trends.
+- Analyze sales based on customer segments.
+- Identify the highest-revenue product categories.
+- Find top-performing products.
+- Understand the distribution of sales.
+- Generate actionable business recommendations from the analysis.
 
-Technology
-Furniture
-Office Supplies
-6. Correlation Analysis
-Created a correlation heatmap for numerical variables.
+---
 
-7. Sales Distribution
-Used a histogram to understand the distribution of sales values.
+## Technologies Used
 
-📊 Key Findings
-Technology generated the highest total revenue among the three categories.
-The Consumer segment contributed the highest sales.
-The Canon imageCLASS 2200 Advanced Copier was the highest-selling product by total sales.
-Sales showed fluctuations across months and quarters, with particularly strong performance during 2017 and 2018.
-The sales distribution was right-skewed, indicating that most orders had relatively low sales values while a small number of orders had very high sales values.
-💡 Business Recommendations
-Focus on Technology Products Continue promoting high-performing technology products and consider expanding successful product lines.
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
 
-Strengthen the Consumer Segment Use targeted offers, loyalty programs, and personalized marketing to increase sales from the Consumer segment.
+---
 
-Promote High-Value Products Use bundles, cross-selling, and targeted promotions to increase the value of high-performing products and transactions.
+## Exploratory Data Analysis
 
-⚠️ Dataset Limitation
-The dataset does not contain Age or Gender columns. Therefore, age-group and gender-based analysis could not be performed. Customer Segment was used as an available customer-related attribute instead.
+The following analyses were performed:
 
-📁 Project Files
-Retail_Sales_EDA.ipynb – Jupyter Notebook containing the complete analysis
-retail sales.csv – Dataset used for the analysis
-README.md – Project documentation
-👩‍💻 Author
-Sadha
+### 1. Sales Trend Analysis
+
+Monthly and quarterly sales trends were analyzed to understand how sales performance changes over time.
+
+The analysis shows fluctuations across different months and quarters, with particularly strong performance during **2017 and 2018**.
+
+### 2. Customer Segment Analysis
+
+Sales were analyzed across different customer segments.
+
+The **Consumer segment contributes the highest sales**, making it an important customer group for the business.
+
+### 3. Product Category Analysis
+
+Revenue was analyzed across product categories.
+
+**Technology** was identified as the highest-revenue product category.
+
+### 4. Top Products Analysis
+
+The top-performing products were identified based on sales.
+
+The analysis shows that a small number of products generate substantially higher sales than others.
+
+### 5. Sales Distribution Analysis
+
+The distribution of sales was analyzed using visualization techniques.
+
+The sales distribution is **right-skewed**, indicating that a few high-value transactions have a significant impact on overall revenue.
+
+---
+
+## Key Insights
+
+- Sales fluctuate across months and quarters.
+- The years **2017 and 2018** show particularly strong sales performance.
+- The **Consumer segment** contributes the highest sales.
+- **Technology** is the highest-revenue product category.
+- A small number of top-performing products contribute substantially to total sales.
+- The sales distribution is right-skewed due to a small number of high-value transactions.
+
+---
+
+## Business Recommendations
+
+### 1. Focus on High-Performing Technology Products
+
+Increase inventory availability and promotional activities for top-performing Technology products to capture more sales opportunities.
+
+### 2. Strengthen the Consumer Segment
+
+Since Consumers generate the highest sales, targeted offers, loyalty programs, and personalized marketing campaigns can help increase repeat purchases.
+
+### 3. Promote High-Value Products and Transactions
+
+Identify products associated with high-value orders and use:
+
+- Product bundles
+- Cross-selling
+- Targeted promotions
+
+These strategies can help increase the average order value.
+
+---
+
+## Conclusion
+
+The exploratory data analysis provides useful insights into retail sales performance.
+
+Sales show fluctuations across months and quarters, with particularly strong performance in **2017 and 2018**. The **Consumer segment** contributes the highest sales, while **Technology** is the highest-revenue product category.
+
+The Top 10 Products analysis also shows that a small number of products generate substantially higher sales than others. The sales distribution is right-skewed, indicating that a few high-value transactions have a significant impact on overall revenue.
+
+These insights can help businesses improve inventory planning, customer targeting, product promotion, and overall sales strategy.
+
+---
+
+## Project Files
+
+- `README.md` – Project documentation
+- `Retail_Sales_EDA.ipynb` – Complete Jupyter Notebook containing the analysis
+- `retail sales.csv` – Dataset used for analysis
+- `monthly_sales.png` – Monthly sales visualization
+- `top_products.png` – Top products visualization
+- `correlation_heatmap.png` – Correlation heatmap
+
+---
+
+## Skills Demonstrated
+
+- Data Cleaning
+- Exploratory Data Analysis
+- Data Visualization
+- Sales Trend Analysis
+- Customer Segment Analysis
+- Product Analysis
+- Business Insights
+- Data-Driven Recommendations
+- **Author: Sadha A**
