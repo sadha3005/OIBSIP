@@ -165,7 +165,5 @@ The dataset used for this project is not included in the repository if its file 
 - Data Visualization
 - Business Recommendations
 
-Author: Sadha A
-
 
 **Author: Sadha A**
