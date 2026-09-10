@@ -142,7 +142,7 @@ The original dataset is not included in this repository if its file size exceeds
 - Model Evaluation
 - Data Visualization
 - Sentiment Analysis
-- Business Insights
+- Business Insights.
 
-  
-- ****Author: Sadha A****
+
+- **Author: Sadha A**
